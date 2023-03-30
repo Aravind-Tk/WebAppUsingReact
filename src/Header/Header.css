@@ -1,0 +1,53 @@
+.header{
+    display: flex;
+    justify-content: space-between;  /* Horizontally align the three divs */
+    align-items: center;  /* Vertically align the three divs */
+    font-size: 20px;
+    color : rgb(9, 8, 8);
+    background-color: #8dd5f4;
+    opacity: 80%;
+    height :50px;
+}
+
+.options{
+    font-size: 15px;
+ 
+
+}
+
+#menu{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 94%;
+    z-index: 1;
+    padding: 8px 0 ;
+    margin-left: -10px;
+       background-color: #fff;
+    color : rgb(0, 0, 0);
+
+
+}
+
+#menu div {
+    padding: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+#menu.show {
+    display: block;
+  }
+
+  .backButton{
+    padding: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+
+  }
+
+  .homeLogo{
+    height : 50px;
+    width : 50px ;
+
+  }
